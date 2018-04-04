@@ -1,0 +1,22 @@
+.filter {
+  width: 15%;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
+  background-color: #fff;
+  span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    margin-left: 2em;
+    margin-top: 1em;
+    cursor: pointer;
+  }
+}
+
+.active-filter {
+  color: #1671e9;
+}

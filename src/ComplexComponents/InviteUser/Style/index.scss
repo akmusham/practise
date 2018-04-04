@@ -1,0 +1,22 @@
+.invite-button {
+  color: #FFFFFF;
+    background-color: #05a9de;
+    opacity: 1;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
+.invite-button:hover {
+  background-color: #3fbaa7;
+    color: #FFFFFF;
+    border-color: #3fbaa7;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
+.invite-username {
+  width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 7px;
+    resize: vertical;
+}

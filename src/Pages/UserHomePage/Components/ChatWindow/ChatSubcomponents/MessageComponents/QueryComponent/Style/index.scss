@@ -1,0 +1,34 @@
+.bot-reply {
+  .message-container {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0;
+
+    .message-box-container {
+      width: auto;
+      display: flex;
+      flex-direction: column;
+
+      .message-box {
+        width: auto;
+        border-radius: 5px;
+        // padding: 12px 14px 10px 15px;
+        padding: 12px 40px 10px 15px;
+        background: #F2F2F2;
+        box-shadow: 1px 2px 3px rgba(0,0,0,0.098);
+        max-width: 20em;
+
+        p {
+          margin: 5px 0;
+        }
+      }
+
+      .time-stamp {
+        margin-top: 0.6em;
+        margin-left: auto;
+        color: #175A88;
+        font-size: 12px;
+      }
+    }
+  }
+}

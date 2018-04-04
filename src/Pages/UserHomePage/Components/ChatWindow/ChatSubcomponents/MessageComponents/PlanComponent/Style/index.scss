@@ -1,0 +1,19 @@
+@import "../../QueryComponent/Style/index.scss";
+.chat-table-leaf{
+  background:#fff;
+  padding:0;
+  margin-top:20px;
+  border-radius:10px;
+  table{width:100%;
+    tbody{
+      tr{border-top:solid 1px #F3F3F3;
+        &:first-child{border-top:0}
+        &:hover{cursor: pointer; background: rgba(0,0,0,0.05);}
+        td{
+          padding:10px 20px;
+        }
+      }
+    }
+  }
+  .material-icons{float:left; margin-right:15px}
+}

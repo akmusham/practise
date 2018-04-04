@@ -1,0 +1,66 @@
+.dash-parent{
+  height: 100%;
+  width: 100%;
+
+}
+.mystack-header {
+  grid-area: mystack-header;
+}
+
+.card-container {
+  width: 100%;
+  padding: 3% 3%;
+  display: grid;
+  grid-template-rows: 20% 2% 78%;
+  grid-template-areas:
+  "addcard-container"
+  "divider"
+  "tableskill-container";
+}
+.dropdown-container {
+  grid-area: dropdown-container;
+}
+.addcard-container {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template-areas:
+  "mystack-header dropdown-container";
+  font-weight: bold;
+  grid-area: addcard-container;
+  padding: 1% 3%;
+  font-size: 2em;
+  font-family: Quicksand;
+}
+.elkstack-container {
+  grid-area: ELKStack-container;
+  display: flex;
+}
+.tableskill-container {
+  flex-wrap: wrap;
+  overflow: hidden;
+  grid-area: tableskill-container;
+  display: flex;
+  width: 100%;
+  height: auto;
+  margin: 1.5% 1.5%;
+
+}
+hr.divider{
+  border: 0;
+  height: 1.5px;
+
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #05a9de,#3fbaa7, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #05a9de, #3fbaa7, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #05a9de,#3fbaa7, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #05a9de,#3fbaa7, #f0f0f0);
+}
+.leftDiv{
+    float: left;
+    height: 100%;
+    width: 50%;
+}
+.rightDiv{
+    float: right;
+    height: 100%;
+    width: 50%;
+}

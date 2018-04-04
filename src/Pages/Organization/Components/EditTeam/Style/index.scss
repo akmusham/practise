@@ -1,0 +1,76 @@
+.mem-card {
+  border: 0.1px solid #e8e8e8;
+  padding: 3% 3%;
+
+}
+.mem-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
+}
+.edit-mem {
+  cursor: pointer;
+  margin-top: 0.5em;
+}
+.fa-plus-circle {
+  font-size: 1.5em;
+  right: 1.3em;
+  color: #3fbaa7;
+}
+.fa-plus-circle:hover {
+  color: #fff;
+}
+.team-name-s {
+  font-family: Quicksand;
+  font-weight: 500;
+}
+.add-team-button {
+  font-family: Quicksand;
+  font-weight: bold;
+}
+.member-me {
+  left: 9em;
+    height: inherit;
+    bottom: 0.1em;
+}
+#xyz{
+  border: none;
+  margin-left: 10.5em;
+}
+@mixin transition($settings) {
+  -webkit-transition: $settings;
+  -moz-transition: $settings;
+  -ms-transition: $settings;
+  -o-transition: $settings;
+  transition: $settings;
+}
+
+.btn-collapsible {
+  overflow: hidden;
+  @include transition(all 500ms ease-in-out);
+  max-width: 40px;
+  &.btn-xs {
+    max-width: 25px;
+  }
+
+  &.btn-lg {
+    max-width: 50px;
+  }
+  span {
+    opacity: 0;
+    text-indent: -6px;
+    display: inline-block;
+    @include transition(all 500ms ease-in-out);
+  }
+  &:hover {
+    max-width: 300px;
+    @include transition(all 300ms ease-in-out);
+    span {
+          margin-left: 0.2em;
+      opacity: 1;
+      text-indent: 0px;
+      @include transition(all 300ms ease-in-out);
+    }
+  }
+}
+.team-description-color {
+  color: #ccc;
+}

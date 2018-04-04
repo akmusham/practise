@@ -1,0 +1,302 @@
+{"type":"agileDashboard",
+	"data":[
+    {
+        "type": "VelocityChart",
+        "data": [
+            {
+                "name": "TechForce Feb-29",
+                "Commitment": 0,
+                "Completed": 28
+            },
+            {
+                "name": "TecforceAgile",
+                "Commitment": 0,
+                "Completed": 24
+            },
+            {
+                "name": "Bot Testing Feb9-Feb23",
+                "Commitment": 4,
+                "Completed": 16
+            },
+            {
+                "name": "Bot Testing",
+                "Commitment": 0,
+                "Completed": 88
+            },
+            {
+                "name": "TechForce 25Oct-15Feb",
+                "Commitment": 40,
+                "Completed": 272
+            },
+            {
+                "name": "TechForce Agile 1",
+                "Commitment": 83,
+                "Completed": 33
+            },
+            {
+                "name": "TechForce JAN27-FEB25",
+                "Commitment": 0,
+                "Completed": 32
+            }
+        ]
+    },
+    {
+        "type": "ProjectProgress",
+        "data": {
+            "todo": {
+                "totalissues": 55,
+                "data": {
+                    "estimate": "1237h 31m 0s"
+                }
+            },
+            "inprogress": {
+                "totalissues": 49,
+                "data": {
+                    "estimate": "941h 0m 0s",
+                    "timespent": "1002h 5m 0s"
+                }
+            },
+            "done": {
+                "totalissues": 106,
+                "data": {
+                    "estimate": "1600h 30m 0s",
+                    "timespent": "1355h 13m 0s"
+                }
+            },
+            "progress": {
+                "name": "Agile Bot",
+                "todo": 24,
+                "done": 31,
+                "inprogress": 18,
+                "extra": 26,
+                "sprint": {
+                    "sprints": [
+                        {
+                            "id": 73,
+                            "name": "TechForce Feb-28"
+                        }
+                    ],
+                    "sprintInfo": [
+                        {
+                            "id": 73,
+                            "name": "TechForce Feb-28",
+                            "todo": {
+                                "totalissues": 4,
+                                "data": {
+                                    "estimate": "32h 0m 0s"
+                                }
+                            },
+                            "inprogress": {
+                                "totalissues": 5,
+                                "data": {
+                                    "estimate": "124h 0m 0s",
+                                    "timespent": "68h 0m 0s"
+                                }
+                            },
+                            "done": {
+                                "totalissues": 8,
+                                "data": {
+                                    "estimate": "248h 0m 0s",
+                                    "timespent": "136h 30m 0s"
+                                }
+                            },
+                            "progress": {
+                                "name": "Agile Bot",
+                                "todo": 8,
+                                "done": 61,
+                                "inprogress": 30,
+                                "extra": 1
+                            }
+                        }
+                    ]
+                }
+            },
+            "projects": [
+                {
+                    "name": "Agile Bot",
+                    "id": "AB",
+                    "key": "AB",
+                    "type": "software"
+                },
+                {
+                    "name": "Agile Demo",
+                    "id": "DUM",
+                    "key": "DUM",
+                    "type": "software"
+                },
+                {
+                    "name": "AgileBot For IBM",
+                    "id": "AFI",
+                    "key": "AFI",
+                    "type": "software"
+                },
+                {
+                    "name": "Aldar ",
+                    "id": "AL",
+                    "key": "AL",
+                    "type": "software"
+                },
+                {
+                    "name": "Cloud Bot ",
+                    "id": "CB",
+                    "key": "CB",
+                    "type": "software"
+                },
+                {
+                    "name": "Customer Success",
+                    "id": "CS",
+                    "key": "CS",
+                    "type": "software"
+                },
+                {
+                    "name": "CXBot",
+                    "id": "CXBOT",
+                    "key": "CXBOT",
+                    "type": "software"
+                },
+                {
+                    "name": "Devops Bot",
+                    "id": "DB",
+                    "key": "DB",
+                    "type": "software"
+                },
+                {
+                    "name": "Digitamize Website",
+                    "id": "DIGI",
+                    "key": "DIGI",
+                    "type": "software"
+                },
+                {
+                    "name": "Itpc",
+                    "id": "ITPC",
+                    "key": "ITPC",
+                    "type": "software"
+                },
+                {
+                    "name": "JiraR&D",
+                    "id": "JIR",
+                    "key": "JIR",
+                    "type": "software"
+                },
+                {
+                    "name": "Learning",
+                    "id": "LEAR",
+                    "key": "LEAR",
+                    "type": "software"
+                },
+                {
+                    "name": "Machine Learning",
+                    "id": "ML",
+                    "key": "ML",
+                    "type": "software"
+                },
+                {
+                    "name": "Mondelez POC",
+                    "id": "MP",
+                    "key": "MP",
+                    "type": "software"
+                },
+                {
+                    "name": "NLP",
+                    "id": "NL",
+                    "key": "NL",
+                    "type": "software"
+                },
+                {
+                    "name": "NTT",
+                    "id": "NTT",
+                    "key": "NTT",
+                    "type": "software"
+                },
+                {
+                    "name": "Ontology",
+                    "id": "ON",
+                    "key": "ON",
+                    "type": "software"
+                },
+                {
+                    "name": "Ping",
+                    "id": "PING",
+                    "key": "PING",
+                    "type": "software"
+                },
+                {
+                    "name": "ServiceBot",
+                    "id": "SER",
+                    "key": "SER",
+                    "type": "software"
+                },
+                {
+                    "name": "Technical Support",
+                    "id": "TS",
+                    "key": "TS",
+                    "type": "software"
+                },
+                {
+                    "name": "Testing",
+                    "id": "TES",
+                    "key": "TES",
+                    "type": "business"
+                },
+                {
+                    "name": "Transsys",
+                    "id": "TRAN",
+                    "key": "TRAN",
+                    "type": "software"
+                },
+                {
+                    "name": "UPX Plan",
+                    "id": "UP",
+                    "key": "UP",
+                    "type": "software"
+                },
+                {
+                    "name": "UX Design",
+                    "id": "UD",
+                    "key": "UD",
+                    "type": "software"
+                },
+                {
+                    "name": "webhooks",
+                    "id": "WEB",
+                    "key": "WEB",
+                    "type": "software"
+                }
+            ]
+        }
+    },
+    {
+        "type": "TodoIssues",
+        "data": {
+            "totalissues": 55,
+            "data": {
+                "estimate": "1237h 31m 0s"
+            }
+        }
+    },
+    {
+        "type": "InProgressIssues",
+        "data": {
+            "totalissues": 49,
+            "data": {
+                "estimate": "941h 0m 0s",
+                "timespent": "1002h 5m 0s"
+            }
+        }
+    },
+    {
+        "type": "DoneIssues",
+        "data": {
+            "totalissues": 106,
+            "data": {
+                "estimate": "1600h 30m 0s",
+                "timespent": "1355h 13m 0s"
+            }
+        }
+    },
+    {
+        "type": "SprintScope",
+        "data": []
+    }
+]
+}

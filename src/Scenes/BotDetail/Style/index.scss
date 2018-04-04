@@ -1,0 +1,67 @@
+.bot-detail-container {
+  width: 95%;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+
+  .bot-bar {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    span {
+      font-size: 1.5em;
+      font-family: 'Roboto', sans-serif;
+      font-weight: bold;
+    }
+    a {
+      font-size: 0.8em;
+      color: #1671e9;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+  .bot-info-container {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
+  }
+  .skill-bar {
+    width: 100%;
+    height: 8%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    span {
+      font-size: 1.5em;
+      font-family: 'Roboto', sans-serif;
+      font-weight: bold;
+    }
+  }
+  .skill-list {
+    width: 100%;
+    height: 30%;
+    // border: 1px solid teal;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.bot-detail-container-loader {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}

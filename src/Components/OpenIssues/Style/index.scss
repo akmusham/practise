@@ -1,0 +1,44 @@
+.open-issues{
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-row-gap:2px;
+  grid-template-rows: 0.2fr 1.8fr;
+  grid-template-areas: "total-issues"
+                       "table-content"
+
+}
+.total-issues{
+  grid-area:total-issues;
+  width:100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1.3fr 0.7fr;
+  grid-template-areas: "header count";
+  background: #404761;
+  font-size: 1em;
+  font-weight: 600
+}
+.header{
+  grid-area:header;
+  padding:6%;
+  color: "#c7c7c7";
+}
+.count{
+  grid-area:count;
+  padding-left: 30%;
+  padding-top:10%
+}
+.container-header{
+    grid-area: container-header;
+    color: #c7c7c7;
+    background-color: #3b3f56;
+    font-size: 1.1em;
+    font-weight: 100;
+    display: flex;
+    justify-content: start;
+    padding: 5%;
+}
+.table-content{
+  grid-area: table-content;
+}

@@ -1,0 +1,10 @@
+.search-filter {
+  input {
+    border-radius: 2em;
+    padding: 0.5em;
+    font-family: 'FontAwesome', 'Roboto', sans-serif;
+    &:focus {
+      outline: none
+    }
+  }
+}

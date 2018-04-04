@@ -1,0 +1,22 @@
+.nav {
+  display: flex;
+    flex-flow: column;
+    align-items: center;
+        margin-bottom: 0.5em;
+  span {
+    font-size: 1em;
+    margin-top: 0.5em;
+    font-family: 'Roboto', sans-serif;
+  }
+}
+.navIcon {
+  display: flex;
+  flex-flow: column;
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+.navIcon:hover {
+  cursor: pointer;
+}

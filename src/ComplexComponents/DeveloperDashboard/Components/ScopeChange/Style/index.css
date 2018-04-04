@@ -1,0 +1,28 @@
+.todo-container{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  height: 0%;
+  margin: 3%;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+}
+.text-font{
+  text-align: center;
+  font-family: Quicksand;
+  font-weight: bold;
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.sprint-scope-header-container{
+  @extend .text-font;
+  background-color: #966917;
+}
+.sprint-scope-count{
+  @extend .text-font;
+  background-color: #966917;
+}
+.sprint-scope-estimate{
+  background-color: #ffa500
+}

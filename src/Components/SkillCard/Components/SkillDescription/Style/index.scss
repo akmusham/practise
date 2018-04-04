@@ -1,0 +1,27 @@
+.skill-description-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 1em;
+}
+
+.skill-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.3em;
+  width: 100%;
+}
+
+.skill-name {
+  color: #1671e9;
+  font-weight: bold;
+}
+
+.skill-description {
+  color: #c2c2c2;
+  font-size: 0.9em;
+  margin-bottom: 0.5em;
+}

@@ -1,0 +1,21 @@
+
+.table-container{
+  border: solid 0.3px #afaeae;
+  box-shadow: 0 0 9.2px 3.8px rgba(50, 48, 48, 0.23);
+  background-color: #00FFFF
+}
+
+.total-issues{
+  background-color: #05a9de;
+}
+.table-head{
+  background-color: #ececec;
+  border: solid 0.3px #afaeae;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #696969;
+}

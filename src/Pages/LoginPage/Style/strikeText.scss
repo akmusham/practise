@@ -1,0 +1,46 @@
+@import "variables";
+
+.strike {
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 60px 0px 20px 0px;
+    color: $line-color;
+    padding: 5px;
+}
+
+.strike > span {
+    position: relative;
+    display: inline-block;
+}
+
+.strike > span:before,
+.strike > span:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 9999px;
+    height: 1px;
+    background: $line-color;
+}
+
+.strike > span:before {
+    right: 100%;
+}
+
+.strike > span:after {
+    left: 100%;
+}
+
+.separator{
+  height: 1px;
+  color: $line-color;
+  background-color: $line-color;
+  border: none;
+}
+
+.paratext{
+  line-height: 30px;
+  font-size: 12px;
+}

@@ -1,0 +1,18 @@
+.registere-button {
+  width: 22%;
+  height: 5vh;
+  border-radius: 20em;
+  border: none;
+  background-color: #05a9de;
+  color: #ffffff;
+  font-family: Quicksand;
+  font-size: 80%;
+  font-weight: bold;
+  font-style: normal;
+  display:inline-block;
+  margin-top: 6%;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
+}
+.registere-button:hover {
+  background-color: #3fbaa7;
+}

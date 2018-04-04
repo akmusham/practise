@@ -1,0 +1,63 @@
+.dash-parent{
+  height: 100%;
+  width: 100%;
+}
+.tab-container{
+  height: 100%;
+}
+.tab-container  > div{
+  height: 100%;
+}
+
+.dev-container{
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-row-gap: 1.2%;
+  grid-column-gap: 0.8%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr 0.5fr 1fr;
+  grid-template-areas: "graph graph pull sonarqube"
+                       "graph graph variance sonarqube"
+                       "jenkins github open-issues sonarqube";
+   background: #222b3a;
+   padding: 1% 3% 6.2% 3%;
+   overflow: hidden;
+
+}
+
+.open-issues {
+  grid-area: open-issues;
+  background: #2c3144;
+}
+
+.sonarqube {
+  grid-area: sonarqube;
+  display: grid;
+  grid-template-rows: 10% 90%;
+  grid-row: row dense;
+  background: #2c3145;
+}
+
+.variance {
+  display: grid;
+  grid-area:variance
+}
+.pull {
+  grid-area:pull
+}
+
+.jenkins {
+  grid-area: jenkins;
+  display: grid;
+}
+
+.github {
+    grid-area: github;
+    display: grid;
+}
+
+.graph {
+   grid-area: graph;
+   display: grid;
+}

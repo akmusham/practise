@@ -1,0 +1,47 @@
+$blue: rgba(0, 213, 189, 0.7);
+$base: #fff;
+
+.block {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "heading"
+                       "num"
+
+}
+
+.heading {
+  display: grid;
+  grid-area:heading;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  font-size: 1.1em;
+  font-family: Quicksand;
+  width: 100%;
+  background: #3a3e57;
+  color: #c7c7c7;
+  flex-grow: 1;
+  font-weight: 600;
+  height: 100%;
+  padding-left: 5%;
+}
+
+.num {
+  grid-area: num;
+  display: grid;
+  font-size: 40px;
+  color: #c7c7c7;
+  background: #2c3145;
+  padding-left: 0.5em;
+  font-family: Quicksand;
+  height: 100%;
+}
+
+
+.blue {
+color: $blue;
+}

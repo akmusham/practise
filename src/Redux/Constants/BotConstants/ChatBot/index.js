@@ -1,0 +1,1 @@
+export const CHAT_BOT_REQUEST = "CHAT_BOT_REQUEST"

@@ -1,0 +1,19 @@
+
+.workload-container{
+      width: 66%;
+      height: 60%;
+      margin-right: 33%;
+      margin-bottom: 33%
+}
+
+#th-header{
+  background-color: #05a9de;
+    flex-wrap: wrap;
+    color: #fff;
+    font-family: Quicksand;
+    font-weight: bold;
+    padding-left: 3px;
+}
+#td-set{
+  padding-left: 3px;
+}

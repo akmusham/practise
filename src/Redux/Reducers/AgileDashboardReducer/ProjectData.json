@@ -1,0 +1,158 @@
+{
+	"type": "agileDashboard",
+	"data": {
+		"projects": [{
+				"name": "Agile Bot",
+				"id": "AB",
+				"key": "AB",
+				"type": "software"
+			},
+			{
+				"name": "Agile Demo",
+				"id": "DUM",
+				"key": "DUM",
+				"type": "software"
+			},
+			{
+				"name": "AgileBot For IBM",
+				"id": "AFI",
+				"key": "AFI",
+				"type": "software"
+			}
+		],
+		"projectdata": {
+			"name": "Agile Bot",
+			"id": "AB",
+			"key": "AB",
+			"type": "software",
+			"projectprogress": {
+				"progress": {
+					"todo": 24,
+					"done": 31,
+					"inprogress": 18,
+					"extra": 26
+				},
+				"todo": {
+					"totalissues": 55,
+					"data": {
+						"estimate": "1237h 31m 0s"
+					}
+				},
+				"inprogress": {
+					"totalissues": 49,
+					"data": {
+						"estimate": "941h 0m 0s",
+						"timespent": "1002h 5m 0s"
+					}
+				},
+				"done": {
+					"totalissues": 106,
+					"data": {
+						"estimate": "1600h 30m 0s",
+						"timespent": "1355h 13m 0s"
+					}
+				}
+
+			},
+			"sprints": [{
+					"name": "sprin1",
+					"id": 54,
+					"progress": {
+						"todo": 24,
+						"done": 31,
+						"inprogress": 18,
+						"extra": 26
+					},
+					"todo": {
+						"totalissues": 55,
+						"data": {
+							"estimate": "1237h 31m 0s"
+						}
+					},
+					"inprogress": {
+						"totalissues": 49,
+						"data": {
+							"estimate": "941h 0m 0s",
+							"timespent": "1002h 5m 0s"
+						}
+					},
+					"done": {
+						"totalissues": 106,
+						"data": {
+							"estimate": "1600h 30m 0s",
+							"timespent": "1355h 13m 0s"
+						}
+					}
+
+				},
+				{
+					"name": "sprin2",
+					"id": 55,
+					"progress": {
+						"todo": 24,
+						"done": 31,
+						"inprogress": 18,
+						"extra": 26
+					},
+					"todo": {
+						"totalissues": 55,
+						"data": {
+							"estimate": "1237h 31m 0s"
+						}
+					},
+					"inprogress": {
+						"totalissues": 49,
+						"data": {
+							"estimate": "941h 0m 0s",
+							"timespent": "1002h 5m 0s"
+						}
+					},
+					"done": {
+						"totalissues": 106,
+						"data": {
+							"estimate": "1600h 30m 0s",
+							"timespent": "1355h 13m 0s"
+						}
+					}
+
+				}
+			],
+			"velocitychart": [{
+					"name": "TechForce Feb-29",
+					"Commitment": 0,
+					"Completed": 28
+				},
+				{
+					"name": "TecforceAgile",
+					"Commitment": 0,
+					"Completed": 24
+				},
+				{
+					"name": "Bot Testing Feb9-Feb23",
+					"Commitment": 4,
+					"Completed": 16
+				},
+				{
+					"name": "Bot Testing",
+					"Commitment": 0,
+					"Completed": 88
+				},
+				{
+					"name": "TechForce 25Oct-15Feb",
+					"Commitment": 40,
+					"Completed": 272
+				},
+				{
+					"name": "TechForce Agile 1",
+					"Commitment": 83,
+					"Completed": 33
+				},
+				{
+					"name": "TechForce JAN27-FEB25",
+					"Commitment": 0,
+					"Completed": 32
+				}
+			]
+		}
+	}
+}

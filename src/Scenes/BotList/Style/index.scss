@@ -1,0 +1,32 @@
+.bot-list {
+  width: 95%;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+
+  .bot-bar {
+    width: 100%;
+    height: 10%;
+    // border: 1px solid green;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    span {
+      font-size: 1.5em;
+      font-family: 'Roboto', sans-serif;
+      font-weight: bold;
+    }
+  }
+
+  .filtered-bot {
+    width: 100%;
+    height: 90%;
+    // border: 1px solid yellow;
+    border-top: 0.1em solid #eee;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}

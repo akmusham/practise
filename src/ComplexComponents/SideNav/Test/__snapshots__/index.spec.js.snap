@@ -1,0 +1,420 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render connected SideNav component should match snapshot 1`] = `
+<div>
+  <div>
+    <div
+      className="navContainer"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      style={
+        Object {
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "backgroundColor": "#ffffff",
+          "borderRadius": "0px",
+          "boxShadow": "0 1px 6px rgba(0, 0, 0, 0.12),
+         0 1px 4px rgba(0, 0, 0, 0.12)",
+          "boxSizing": "border-box",
+          "color": "rgba(0, 0, 0, 0.87)",
+          "fontFamily": "Roboto, sans-serif",
+          "muiPrepared": true,
+          "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+        }
+      }
+    >
+      <div
+        className="nav"
+      >
+        <a
+          href="/user/home"
+          onClick={[Function]}
+        >
+          <div>
+            <div
+              className="navIcon"
+              color="#000"
+              size={35}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#fff",
+                  "borderRadius": "50%",
+                  "color": "#000",
+                  "display": "inline-flex",
+                  "fontSize": 17.5,
+                  "height": 35,
+                  "justifyContent": "center",
+                  "muiPrepared": true,
+                  "userSelect": "none",
+                  "width": 35,
+                }
+              }
+            >
+              <div>
+                <span
+                  className="fa fa-pied-piper-pp"
+                  color="#000"
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  style={
+                    Object {
+                      "color": "#000",
+                      "display": "inline-block",
+                      "fontSize": 24,
+                      "muiPrepared": true,
+                      "position": "relative",
+                      "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                      "userSelect": "none",
+                    }
+                  }
+                />
+              </div>
+            </div>
+          </div>
+        </a>
+        <span
+          className="navTitle"
+        >
+          
+        </span>
+      </div>
+      <div
+        className="nav"
+      >
+        <a
+          href="/user/speed"
+          onClick={[Function]}
+        >
+          <div>
+            <div
+              className="navIcon"
+              color={undefined}
+              size={35}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "rgb(188, 188, 188)",
+                  "borderRadius": "50%",
+                  "color": "#ffffff",
+                  "display": "inline-flex",
+                  "fontSize": 17.5,
+                  "height": 35,
+                  "justifyContent": "center",
+                  "muiPrepared": true,
+                  "userSelect": "none",
+                  "width": 35,
+                }
+              }
+            >
+              <div>
+                <span
+                  className="fa fa-tachometer"
+                  color="#ffffff"
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  style={
+                    Object {
+                      "color": "#ffffff",
+                      "display": "inline-block",
+                      "fontSize": 24,
+                      "muiPrepared": true,
+                      "position": "relative",
+                      "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                      "userSelect": "none",
+                    }
+                  }
+                />
+              </div>
+            </div>
+          </div>
+        </a>
+        <span
+          className="navTitle"
+        >
+          Speed
+        </span>
+      </div>
+      <div
+        className="nav"
+      >
+        <a
+          href="/user/bot"
+          onClick={[Function]}
+        >
+          <div>
+            <div
+              className="navIcon"
+              color={undefined}
+              size={35}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "rgb(188, 188, 188)",
+                  "borderRadius": "50%",
+                  "color": "#ffffff",
+                  "display": "inline-flex",
+                  "fontSize": 17.5,
+                  "height": 35,
+                  "justifyContent": "center",
+                  "muiPrepared": true,
+                  "userSelect": "none",
+                  "width": 35,
+                }
+              }
+            >
+              <div>
+                <span
+                  className="fa fa-rocket"
+                  color="#ffffff"
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  style={
+                    Object {
+                      "color": "#ffffff",
+                      "display": "inline-block",
+                      "fontSize": 24,
+                      "muiPrepared": true,
+                      "position": "relative",
+                      "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                      "userSelect": "none",
+                    }
+                  }
+                />
+              </div>
+            </div>
+          </div>
+        </a>
+        <span
+          className="navTitle"
+        >
+          Bots
+        </span>
+      </div>
+      <div
+        className="nav"
+      >
+        <a
+          href="/user/skill"
+          onClick={[Function]}
+        >
+          <div>
+            <div
+              className="navIcon"
+              color={undefined}
+              size={35}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "rgb(188, 188, 188)",
+                  "borderRadius": "50%",
+                  "color": "#ffffff",
+                  "display": "inline-flex",
+                  "fontSize": 17.5,
+                  "height": 35,
+                  "justifyContent": "center",
+                  "muiPrepared": true,
+                  "userSelect": "none",
+                  "width": 35,
+                }
+              }
+            >
+              <div>
+                <span
+                  className="fa fa-th-large"
+                  color="#ffffff"
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  style={
+                    Object {
+                      "color": "#ffffff",
+                      "display": "inline-block",
+                      "fontSize": 24,
+                      "muiPrepared": true,
+                      "position": "relative",
+                      "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                      "userSelect": "none",
+                    }
+                  }
+                />
+              </div>
+            </div>
+          </div>
+        </a>
+        <span
+          className="navTitle"
+        >
+          Skills
+        </span>
+      </div>
+      <div
+        className="nav"
+      >
+        <a
+          href="/user/project"
+          onClick={[Function]}
+        >
+          <div>
+            <div
+              className="navIcon"
+              color={undefined}
+              size={35}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "rgb(188, 188, 188)",
+                  "borderRadius": "50%",
+                  "color": "#ffffff",
+                  "display": "inline-flex",
+                  "fontSize": 17.5,
+                  "height": 35,
+                  "justifyContent": "center",
+                  "muiPrepared": true,
+                  "userSelect": "none",
+                  "width": 35,
+                }
+              }
+            >
+              <div>
+                <span
+                  className="fa fa-folder"
+                  color="#ffffff"
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  style={
+                    Object {
+                      "color": "#ffffff",
+                      "display": "inline-block",
+                      "fontSize": 24,
+                      "muiPrepared": true,
+                      "position": "relative",
+                      "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                      "userSelect": "none",
+                    }
+                  }
+                />
+              </div>
+            </div>
+          </div>
+        </a>
+        <span
+          className="navTitle"
+        >
+          Projects
+        </span>
+      </div>
+      <div
+        className="nav"
+      >
+        <a
+          href="/user/app"
+          onClick={[Function]}
+        >
+          <div>
+            <div
+              className="navIcon"
+              color={undefined}
+              size={35}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "rgb(188, 188, 188)",
+                  "borderRadius": "50%",
+                  "color": "#ffffff",
+                  "display": "inline-flex",
+                  "fontSize": 17.5,
+                  "height": 35,
+                  "justifyContent": "center",
+                  "muiPrepared": true,
+                  "userSelect": "none",
+                  "width": 35,
+                }
+              }
+            >
+              <div>
+                <span
+                  className="fa fa-file"
+                  color="#ffffff"
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  style={
+                    Object {
+                      "color": "#ffffff",
+                      "display": "inline-block",
+                      "fontSize": 24,
+                      "muiPrepared": true,
+                      "position": "relative",
+                      "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                      "userSelect": "none",
+                    }
+                  }
+                />
+              </div>
+            </div>
+          </div>
+        </a>
+        <span
+          className="navTitle"
+        >
+          Apps
+        </span>
+      </div>
+      <div
+        className="nav"
+      >
+        <a
+          href="/user/setting"
+          onClick={[Function]}
+        >
+          <div>
+            <div
+              className="navIcon"
+              color={undefined}
+              size={35}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "rgb(188, 188, 188)",
+                  "borderRadius": "50%",
+                  "color": "#ffffff",
+                  "display": "inline-flex",
+                  "fontSize": 17.5,
+                  "height": 35,
+                  "justifyContent": "center",
+                  "muiPrepared": true,
+                  "userSelect": "none",
+                  "width": 35,
+                }
+              }
+            >
+              <div>
+                <span
+                  className="fa fa-cog"
+                  color="#ffffff"
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  style={
+                    Object {
+                      "color": "#ffffff",
+                      "display": "inline-block",
+                      "fontSize": 24,
+                      "muiPrepared": true,
+                      "position": "relative",
+                      "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                      "userSelect": "none",
+                    }
+                  }
+                />
+              </div>
+            </div>
+          </div>
+        </a>
+        <span
+          className="navTitle"
+        >
+          Settings
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

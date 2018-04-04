@@ -1,0 +1,3 @@
+export const HIRE_BOT_REQUEST = "HIRE_BOT_REQUEST"
+export const HIRE_BOT_SUCCESS = "HIRE_BOT_SUCCESS"
+export const HIRE_BOT_FAIL = "HIRE_BOT_FAIL"

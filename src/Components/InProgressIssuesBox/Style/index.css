@@ -1,0 +1,28 @@
+
+.inprogress-container{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  height: 0%;
+  margin: 3%;
+}
+.inprogress-header-container{
+   background-color: #4044c0;
+   text-align: center;
+   font-family: Quicksand;
+   font-size: 2em;
+   font-weight: bold;
+   color: white
+}
+.inprogress-count{
+  background-color: #4044c0;
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 2em;
+  font-weight: bold;
+  color: white
+}
+.inprogress-estimate{
+  background-color: #246ccc
+
+}

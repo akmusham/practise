@@ -1,0 +1,52 @@
+{
+   "columns":[
+     "MachineType","WorkloadPattern/ ClusterType","Storage","Processor (#of Cores)",
+     "Memory","Network"
+   ],
+
+  "tableData": [ {
+      "MachineType":"Slaves",
+      "WorkloadPattern/ ClusterType":"Balanced",
+      "Storage":"12 Nos - 2-3 TB's",
+      "Processor (#of Cores)":"8",
+      "Memory":"128-256",
+      "Network":"1 GB onboard, 2x10 GBE mezzanine/External",
+      "color":"green"
+    },
+
+    {
+      "MachineType":"Slaves",
+      "WorkloadPattern/ ClusterType":"Compute Intensive",
+      "Storage":"12 Nos - 1-2TB's",
+      "Processor (#of Cores)":"12",
+      "Memory":"128-256",
+      "Network":"1 GB onboard, 2x10 GBE mezzanine/External"
+    },
+    {
+        "MachineType":"Slaves",
+        "WorkloadPattern/ ClusterType":"Balanced",
+        "Storage":"12 Nos - 2-3 TB's",
+        "Processor (#of Cores)":"8",
+        "Memory":"128-256",
+        "Network":"1 GB onboard, 2x10 GBE mezzanine/External",
+        "color":"green"
+    },
+    {
+        "MachineType":"Name Node",
+        "WorkloadPattern/ ClusterType":"Balanced",
+        "Storage":"4 - 2-10 TB's RAID 10",
+        "Processor (#of Cores)":"8",
+        "Memory":"128-256",
+        "Network":"1 GB onboard, 2x10 GBE mezzanine/External",
+        "color":"green"
+    },
+    {
+        "MachineType":"Resource Manager",
+        "WorkloadPattern/ ClusterType":"Balanced",
+        "Storage":"4 - 2-10 TB's RAID 10",
+        "Processor (#of Cores)":"8",
+        "Memory":"128-256",
+        "Network":"1 GB onboard, 2x10 GBE mezzanine/External"
+    }
+  ]
+}

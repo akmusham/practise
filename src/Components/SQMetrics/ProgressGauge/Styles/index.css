@@ -1,0 +1,109 @@
+/* Using ems to easily scale these gauges */
+html {
+  font-size:150%;
+}
+
+.gauge-parent{
+  width: 100%;
+      display: flex;
+      flex-grow: 1;
+}
+.gauge-container{
+    background: #2c3145;
+    display: flex;
+    flex-direction: column;
+}
+
+.gauge {
+  display:flex;
+  position:relative;
+  width:10em;
+  height:5em;
+  overflow:hidden;
+  margin: 4% 2% 4% 2%;
+}
+
+.gauge:before, .gauge:after, .meter {
+  position:absolute;
+  display:block;
+  content:"";
+}
+
+.gauge:before, .meter { width:10em; height:5em; }
+.gauge:before { border-radius:5em 5em 0 0; background:#2a2a2a; }
+
+.gauge:after {
+  position:absolute;
+  bottom:0;
+  left:2.5em;
+  width:5em;
+  height:2.5em;
+  background:#2c3242;
+  border-radius:2.5em 2.5em 0 0;
+}
+
+.meter {
+  top:100%;
+  transition:1.5s;
+  transform-origin:center top;
+  border-radius:0 0 6em 6em;
+  background:deepskyblue;
+}
+
+/* .gauge:hover .meter { transform:rotate(.5turn); } */
+
+
+/* Overload effect ==================== */
+.overload { transform-origin:center center; }
+.overload:hover {
+  animation:overload .15s .5s infinite;
+}
+.overload .meter { background:gold; }
+.overload:hover .meter { background:orangered; }
+@keyframes overload {
+  25%{ transform:translateX(2px); }
+  50%{ transform:rotate(-1deg); }
+  75%{ transform:translateX(1px); }
+}
+
+
+/* Gauge with percentage indicator ============== */
+.percentage-container {
+  position:absolute;
+  bottom:-.75em;
+  left:2.5em;
+  z-index:1000;
+  width:5em;
+  height:2.5em;
+  overflow:hidden;
+}
+
+.percentage-indicator {
+  font-size:22px;
+  font-family: Quicksand;
+  color:#c7c7c7;
+  white-space:pre;
+  transition:1.5s;
+  vertical-align:baseline;
+  user-select:none;
+  font-weight: 600;
+}
+
+
+
+
+
+/* Demo code ==================== */
+
+.meter { animation:empty 1.5s linear both; }
+  @keyframes empty { 0%{ transform:rotate(180deg); } }
+.overload .meter { animation-delay:.4s; }
+.percentage .meter { animation-delay:.8s; }
+
+
+html { position:relative; height:100%; }
+html, body { display:-webkit-flex; display:flex; }
+body { width:100%; align-self:center; text-align:center; overflow:hidden; }
+
+figure { flex:1; align-items: center; text-align: center;}
+figcaption { font-size: 1.1em; font-family:Quicksand; color:#c7c7c7; user-select:none; font-weight: 600}

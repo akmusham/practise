@@ -1,0 +1,50 @@
+{
+	"cols": [{
+			"key": "IssueKey",
+			"label": "Issue Key"
+		},
+		{
+			"key": "Reporter",
+			"label": "Reporter"
+		},
+		{
+			"key": "Priority",
+			"label": "Priority"
+		}
+	],
+	"rows": [{
+			"IssueKey": "TES-37",
+			"url": "https://digitamize.atlassian.net/browse/TES-37",
+			"Reporter": "Hari Gudladona",
+			"Priority": "Medium"
+		},
+		{
+			"IssueKey": "TES-33",
+			"url": "https://digitamize.atlassian.net/browse/TES-33",
+			"Reporter": "venkatesh",
+			"Priority": "Medium"
+		},
+		{
+			"IssueKey": "AB-191",
+			"url": "https://digitamize.atlassian.net/browse/AB-191",
+			"Reporter": "venkatesh",
+			"Priority": "Medium"
+		},
+		{
+			"IssueKey": "AB-190",
+			"url": "https://digitamize.atlassian.net/browse/AB-190",
+			"Reporter": "venkatesh",
+			"Priority": "Medium"
+		},
+		{
+			"IssueKey": "LEAR-6",
+			"url": "https://digitamize.atlassian.net/browse/LEAR-6",
+			"Reporter": "Hari Gudladona",
+			"Priority": "Medium"
+		}
+	],
+	"userIssues": {
+		"url": "https://digitamize.atlassian.net/issues/?jql=assignee = currentUser()",
+		"issues": 19
+	}
+}

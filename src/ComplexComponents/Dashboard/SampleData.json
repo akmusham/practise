@@ -1,0 +1,243 @@
+{
+	"type":"developerDashboard",
+	"data":[
+	    {
+	        "type": "EffortVariance",
+	        "data": {
+	            "estimate": "+13h"
+	        }
+	    },
+     {
+        "type": "JenkinsBuilds",
+        "data": [
+            {
+                "timestamp": 1519293444913,
+                "number": 2,
+                "status": "SUCCESS",
+                "url": "http://jenkins.speedops.com/job/QandADialog/job/master/2/",
+                "jobName": "QandADialog",
+                "sha": "7c290f9408905b3be599cbce098a6c53f54d6555",
+                "culprit": "ramu",
+                "commits": 1,
+                "avatar": "https://avatars.githubusercontent.com/u/34542224?"
+            },
+            {
+                "timestamp": 1519281370915,
+                "number": 1,
+                "status": "SUCCESS",
+                "url": "http://jenkins.speedops.com/job/QandADialog/job/master/1/",
+                "jobName": "QandADialog",
+                "sha": "0dc06cff1b3945cbd1e9613162995c96c86ebc60",
+                "culprit": "ramu",
+                "commits": 2,
+                "avatar": "https://avatars.githubusercontent.com/u/34542224?"
+            }
+        ]
+    },
+    {
+        "type": "LatestCommits",
+        "data": [
+            {
+                "author": "YPvenkat",
+                "sha": "a11cc084ab7a41a7d8ab2f03c24d4312e894e99d",
+                "date": "2018-02-22T09:57:16Z",
+                "url": "https://github.com/digitamizers/QandADialog/commit/a11cc084ab7a41a7d8ab2f03c24d4312e894e99d",
+                "avatar": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+                "message": "Update package.json\n\nupdate version"
+            },
+            {
+                "author": "SpeedOps",
+                "sha": "c8ee29b39e08c20b34ebb73de757e9b888249111",
+                "date": "2018-02-22T06:36:01Z",
+                "url": "https://github.com/digitamizers/QandADialog/commit/c8ee29b39e08c20b34ebb73de757e9b888249111",
+                "avatar": "",
+                "message": "initial build"
+            }
+        ]
+    },
+    {
+        "type": "PullRequests",
+        "data": []
+    },
+    {
+        "type": "CommitsPerUser",
+        "data": [
+            {
+                "name": "lomkju",
+                "commits": 0,
+                "avatar": "https://avatars3.githubusercontent.com/u/6164115?v=4"
+            },
+            {
+                "name": "harikgdona",
+                "commits": 0,
+                "avatar": "https://avatars0.githubusercontent.com/u/10009118?v=4"
+            },
+            {
+                "name": "vijaysmaddipoti",
+                "commits": 0,
+                "avatar": "https://avatars3.githubusercontent.com/u/13523455?v=4"
+            },
+            {
+                "name": "sivasirish",
+                "commits": 0,
+                "avatar": "https://avatars1.githubusercontent.com/u/13968718?v=4"
+            },
+            {
+                "name": "pranavburnwal",
+                "commits": 0,
+                "avatar": "https://avatars1.githubusercontent.com/u/15976005?v=4"
+            },
+            {
+                "name": "gajananpp",
+                "commits": 0,
+                "avatar": "https://avatars1.githubusercontent.com/u/16310205?v=4"
+            },
+            {
+                "name": "vikramcsekaran",
+                "commits": 0,
+                "avatar": "https://avatars0.githubusercontent.com/u/22504119?v=4"
+            },
+            {
+                "name": "Rampalitham",
+                "commits": 0,
+                "avatar": "https://avatars1.githubusercontent.com/u/30518996?v=4"
+            },
+            {
+                "name": "SrinuR",
+                "commits": 0,
+                "avatar": "https://avatars2.githubusercontent.com/u/30519047?v=4"
+            },
+            {
+                "name": "YPvenkat",
+                "commits": 1,
+                "avatar": "https://avatars2.githubusercontent.com/u/30616727?v=4"
+            },
+            {
+                "name": "tejaswiniarrob",
+                "commits": 0,
+                "avatar": "https://avatars3.githubusercontent.com/u/30696177?v=4"
+            },
+            {
+                "name": "Harisha11",
+                "commits": 0,
+                "avatar": "https://avatars0.githubusercontent.com/u/30744782?v=4"
+            },
+            {
+                "name": "akmusham",
+                "commits": 0,
+                "avatar": "https://avatars3.githubusercontent.com/u/31608652?v=4"
+            },
+            {
+                "name": "nchauhantech",
+                "commits": 0,
+                "avatar": "https://avatars3.githubusercontent.com/u/32619161?v=4"
+            },
+            {
+                "name": "prasadchinni",
+                "commits": 0,
+                "avatar": "https://avatars2.githubusercontent.com/u/32793817?v=4"
+            },
+            {
+                "name": "MManchukonda",
+                "commits": 0,
+                "avatar": "https://avatars3.githubusercontent.com/u/32794033?v=4"
+            },
+            {
+                "name": "sarkarahul",
+                "commits": 0,
+                "avatar": "https://avatars3.githubusercontent.com/u/34094854?v=4"
+            },
+            {
+                "name": "ramu-yarru",
+                "commits": 0,
+                "avatar": "https://avatars1.githubusercontent.com/u/34542224?v=4"
+            },
+            {
+                "name": "nsahithi",
+                "commits": 0,
+                "avatar": "https://avatars0.githubusercontent.com/u/36220171?v=4"
+            }
+        ]
+    },
+    {
+        "type": "DeveloperIssues",
+        "data": {
+            "cols": [
+                {
+                    "key": "IssueKey",
+                    "label": "Issue Key"
+                },
+                {
+                    "key": "Reporter",
+                    "label": "Reporter"
+                },
+                {
+                    "key": "Priority",
+                    "label": "Priority"
+                }
+            ],
+            "rows": [
+                {
+                    "IssueKey": "TES-37",
+                    "url": "https://digitamize.atlassian.net/browse/TES-37",
+                    "Reporter": "Hari Gudladona",
+                    "Priority": "Medium"
+                },
+                {
+                    "IssueKey": "TES-33",
+                    "url": "https://digitamize.atlassian.net/browse/TES-33",
+                    "Reporter": "venkatesh",
+                    "Priority": "Medium"
+                },
+                {
+                    "IssueKey": "AB-191",
+                    "url": "https://digitamize.atlassian.net/browse/AB-191",
+                    "Reporter": "venkatesh",
+                    "Priority": "Medium"
+                },
+                {
+                    "IssueKey": "AB-190",
+                    "url": "https://digitamize.atlassian.net/browse/AB-190",
+                    "Reporter": "venkatesh",
+                    "Priority": "Medium"
+                },
+                {
+                    "IssueKey": "LEAR-6",
+                    "url": "https://digitamize.atlassian.net/browse/LEAR-6",
+                    "Reporter": "Hari Gudladona",
+                    "Priority": "Medium"
+                }
+            ],
+            "userIssues": {
+                "url": "https://digitamize.atlassian.net/issues/?jql=assignee = currentUser()",
+                "issues": 19
+            }
+        }
+    },
+    {
+        "type": "SQMetrics",
+        "data": [
+            {
+                "metric": "Technical Debt",
+                "value": "0min"
+            },
+            {
+                "metric": "Coverage",
+                "value": "0.0"
+            },
+            {
+                "metric": "Maintainability",
+                "value": "E"
+            },
+            {
+                "metric": "Vulnerabilities",
+                "value": "0"
+            },
+            {
+                "metric": "Cognitive Complexity",
+                "value": "3"
+            }
+        ]
+    }
+]
+}

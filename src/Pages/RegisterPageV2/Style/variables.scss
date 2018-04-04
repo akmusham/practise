@@ -1,0 +1,7 @@
+$button-color: #1874F0;
+$span-color: #EE5D5D;
+$line-color: #e0e0e0;
+
+@mixin z-depth-2 {
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

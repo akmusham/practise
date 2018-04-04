@@ -1,0 +1,21 @@
+.navContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid #e2e2e2;
+  background-color: #ffffff;
+  width: 5%;
+
+  .nav-child-container {
+    height: 100%;
+    width: 70%;
+    padding: 1em 0.6em 1em 0.5em;
+    display: flex;
+    flex-direction: column;
+
+    :last-child {
+      margin-top: auto;
+    }
+  }
+}

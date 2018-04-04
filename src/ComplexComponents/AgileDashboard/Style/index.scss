@@ -1,0 +1,51 @@
+.dash-parent{
+  height: 100%;
+  width: 100%;
+}
+.tab-container{
+  height: 100%;
+}
+.tab-container  > div{
+  height: 100%;
+}
+
+.agile-container{
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-row-gap: 1.2%;
+  grid-column-gap: 0.8%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 55% 45%;
+  grid-template-areas: "progress-bar-content progress-bar-content bar-graph bar-graph"
+                       "done-container inprogress-container todo-container scope-container";
+  background: #222b3a;
+  padding: 1% 3% 6.2% 3%;
+  overflow: hidden;
+}
+
+.progress-bar-content{
+  grid-area:progress-bar-content;
+}
+
+.bar-graph{
+  grid-area:bar-graph;
+  height: 100%;
+  width:100%;
+  overflow: hidden;
+}
+
+.todo-container{
+  grid-area:todo-container;
+}
+
+.done-container{
+  grid-area:done-container;
+}
+
+.inprogress-container{
+  grid-area:inprogress-container;
+}
+.scope-container{
+  grid-area:scope-container;
+}

@@ -1,0 +1,51 @@
+.standup-container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 40% 60%;
+  grid-template-areas: "summary graph" "table-content table-content";
+
+  .summary {
+    grid-area: summary;
+    display: grid;
+    background-color: #00465d;
+    padding: 2%;
+  }
+
+  .graph {
+    grid-area: graph;
+    display: grid;
+    background-color: #00465d;
+    height: 100%;
+
+  }
+  .ct-label{
+    color: #fff;
+    font-size: 15px;
+    font-family: Quicksand;
+    }
+  .ct-chart .ct-bar{
+    stroke: #05a9de;
+    stroke-width: 30px;
+    margin-top: 2%;
+    border-radius: 4px;
+  }
+  .ct-chart{
+    padding: 2.5% 0 1.5% 1%;
+    background-color: rgba(5, 169, 222,0.2);
+    width: 98.5%;
+    height: 93%;
+    margin-top: 1.2%;
+  }
+
+  .table-content {
+    grid-area: table-content;
+    display: flex;
+    flex-direction: column;
+    padding: 0% 0% 4% 0%;
+  }
+}
+.ct-grid .ct-horizontal{
+    display: none;
+}

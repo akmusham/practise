@@ -1,0 +1,20 @@
+.skill-list-container {
+  width: 95%;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  overflow: hidden;
+  align-items: center;
+
+  .filtered-skills {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-flow: row;
+    grid-auto-rows: 30%;
+    grid-gap: 1%;
+    padding: 1%;
+    overflow-y: scroll;
+  }
+}

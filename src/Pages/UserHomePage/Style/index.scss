@@ -1,0 +1,43 @@
+.main-container {
+  display: flex;
+  /* establish flex container */
+  flex-direction: column;
+  /* default value; can be omitted */
+  flex-wrap: nowrap;
+  /* default value; can be omitted */
+  justify-content: flex-start;
+  height: 100vh;
+  // background: #f5f5f5;
+}
+.page-container {
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: flex-start;
+overflow-y: hidden;
+flex-grow: 1;
+align-self: center;
+width: 100%;
+}
+
+.mid-page-container {
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-grow: 1;
+  display: flex;
+}
+
+.chat-window-container{
+  position: absolute;
+  height: 90vh;
+  width: 30vw;
+  z-index: 100000;
+  overflow-x: hidden;
+  align-self: center;
+  border-radius: 7px;
+  right: 120px;
+.chat-window {
+  height: 100%;
+  width: 100%;
+}
+}

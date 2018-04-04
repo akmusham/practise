@@ -1,0 +1,3 @@
+export const MYSTACK_REQUEST =  "MYSTACK_REQUEST"
+export const MYSTACK_SUCCESS =  "MYSTACK_SUCCESS"
+export const MYSTACK__FAIL =  "MYSTACK__FAIL"

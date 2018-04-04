@@ -1,0 +1,25 @@
+.chart{
+  width: 100%;
+  height: 100%;
+}
+.ct-chart{
+  padding: 2.5% 0 1.5% 1%;
+  width: 80%;
+  height: 80%;
+  margin: 2%;
+}
+.ct-series-b .ct-bar,{
+      stroke: #ccc;
+      stroke-width: 25px;
+}
+
+.ct-series-a .ct-bar, {
+    stroke: #067c07;
+    stroke-width: 25px;
+}
+.ct-label {
+    font-size: 100%;
+    line-height: 1;
+    color: inherit;
+    font-family: Quicksand;
+  }

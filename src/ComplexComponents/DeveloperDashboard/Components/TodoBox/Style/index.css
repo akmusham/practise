@@ -1,0 +1,28 @@
+.todo-container{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  height: 0%;
+  margin: 3%;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+}
+.text-font{
+  text-align: center;
+  font-family: Quicksand;
+  font-weight: bold;
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.todo-header-container{
+  @extend .text-font;
+  background-color: #FFA500;
+}
+.todo-count{
+  @extend .text-font;
+  background-color: #FFA500;
+}
+.todo-estimate{
+  background-color: #ffa50096
+}

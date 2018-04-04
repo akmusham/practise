@@ -1,0 +1,27 @@
+.text{
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 2em;
+  font-weight: bold;
+  color: white;
+}
+
+
+.done-container{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  height: 0%;
+  margin: 3%;
+}
+.done-header-container{
+  @extend .text;
+  background-color: #3c763d;
+}
+.done-count{
+  @extend .text;
+  background-color: #3c763d;
+}
+.done-estimate{
+       background-color: #469a1a;
+}

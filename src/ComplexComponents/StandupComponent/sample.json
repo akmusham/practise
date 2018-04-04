@@ -1,0 +1,191 @@
+{
+  "tableData": [{
+    "User": "Tejaswini Borra",
+    "Date": "2018-01-11",
+    "Project Name": "Agile Bot",
+    "Issue key": "AB-30",
+    "Summary": "write api to create RDS DB instance ",
+    "Timespent": "2w 1d 6h 30m",
+    "OriginalEstimate": "1w 1d",
+    "% Progress": "90",
+    "Progress Description": "integrated it with bot framework. Tested it from UI",
+    "Problem Description": "No hindrances"
+  }, {
+    "User": "Musham Akhil Kumar",
+    "Date": "2018-01-11",
+    "Project Name": "Agile Bot",
+    "Issue key": "AB-36",
+    "Summary": "writing css for dashboard",
+    "Timespent": "1w 1d 7h",
+    "OriginalEstimate": "2d",
+    "% Progress": "99",
+    "Progress Description": "wrote css for register, login & forgot password templates",
+    "Problem Description": "No hindrances"
+  }, {
+    "User": "seshasahithi narayanam",
+    "Date": "2018-01-11",
+    "Project Name": "Learning",
+    "Issue key": "LEAR-1",
+    "Summary": " Learning JavaScript",
+    "Timespent": "4d 1h",
+    "OriginalEstimate": "1w 4d",
+    "% Progress": "30",
+    "Progress Description": "learning java script",
+    "Problem Description": "No hindrances"
+  }, {
+    "User": "srinu ravuri",
+    "Date": "2018-01-11",
+    "Project Name": "Agile Bot",
+    "Issue key": "AB-65",
+    "Summary": "Agile Dashboard",
+    "Timespent": "2d 4h",
+    "OriginalEstimate": "1d",
+    "% Progress": "60",
+    "Progress Description": "Get all issues based on sprint started date and issue create date.now i calculate the project scope.",
+    "Problem Description": "No hindrances"
+  }, {
+    "User": "venkatesh",
+    "Date": "2018-01-11",
+    "Project Name": "Testing",
+    "Issue key": "TES-6",
+    "Summary": "Testing search  issues in cloud",
+    "Timespent": "2d 5h",
+    "OriginalEstimate": "1d",
+    "% Progress": "80",
+    "Progress Description": "Test the Jira functionalities in Agile Bot",
+    "Problem Description": "No hindrances"
+  }, {
+    "User": "Ramu Palitham",
+    "Date": "2018-01-11",
+    "Project Name": "Agile Bot",
+    "Issue key": "AB-148",
+    "Summary": "Develop the Agile Dashboard Front-End",
+    "Timespent": "2d 2h",
+    "OriginalEstimate": "2d",
+    "% Progress": "70",
+    "Progress Description": "Made Progress bar , Bar chart widgets and need to beautify the UI",
+    "Problem Description": "No hindrances"
+  }, {
+    "User": "prasad chinni",
+    "Date": "2018-01-11",
+    "Project Name": "Cloud Bot ",
+    "Issue key": "CB-56",
+    "Summary": "change the flow of asking the aws config details",
+    "Timespent": "1d",
+    "OriginalEstimate": "2d",
+    "% Progress": "80",
+    "Progress Description": "I changed the flow of asking the aws credentials and test apache, mongodb, couchdb  and glassfish",
+    "Problem Description": "No hindrances"
+  }, {
+    "User": "sindhuja",
+    "Date": "2018-01-11",
+    "Project Name": "Agile Bot",
+    "Issue key": "AB-149",
+    "Summary": "searching git code for leave application form",
+    "Timespent": 0,
+    "OriginalEstimate": "1d",
+    "% Progress": "50",
+    "Progress Description": "i got code but i need to analyse it.",
+    "Problem Description": "No hindrances"
+  }, {
+    "User": "Manoj Kumar",
+    "Date": "2018-01-11",
+    "Project Name": "Ping",
+    "Issue key": "PING-2",
+    "Summary": "Modify Ping flow and test it",
+    "Timespent": "6h",
+    "OriginalEstimate": "1d",
+    "% Progress": "95",
+    "Progress Description": "I Have changed the ping flow and also added the worker count variable",
+    "Problem Description": "No hindrances"
+  }, {
+    "User": "ahemrajani@techforce.ai",
+    "Date": "2018-01-11",
+    "Project Name": "Agile Bot",
+    "Issue key": "AB-131",
+    "Summary": "NLP Should be working for All Skills using RASA.ai",
+    "Timespent": "5h",
+    "OriginalEstimate": "1d",
+    "% Progress": "20",
+    "Progress Description": "standup test",
+    "Problem Description": "add issues to sprint not working\n"
+  }],
+  "analysis": ["ahemrajani@techforce.ai  has  4h hours of banwidth", "Tejaswini Borra, Musham Akhil Kumar and Manoj Kumar might be ready to take up new issue"],
+  "worklogChart": [
+  {
+    "user": "admin",
+    "hours": 0
+  }, {
+    "user": "ahemrajani",
+    "hours": 248
+  }, {
+    "user": "akmusham",
+    "hours": 23
+  }, {
+    "user": "bala",
+    "hours": 0
+  }, {
+    "user": "dsaw",
+    "hours": 0
+  }, {
+    "user": "gpatil",
+    "hours": 0
+  }, {
+    "user": "hari",
+    "hours": 0
+  }, {
+    "user": "harishamaddi",
+    "hours": 20
+  }, {
+    "user": "janardhan",
+    "hours": 0
+  }, {
+    "user": "mmanchukonda",
+    "hours": 6
+  }, {
+    "user": "nadjetba",
+    "hours": 0
+  }, {
+    "user": "nchauhan792",
+    "hours": 0
+  }, {
+    "user": "nkashyap",
+    "hours": 0
+  }, {
+    "user": "pchinni",
+    "hours": 16
+  }, {
+    "user": "ramu.yarru",
+    "hours": 0
+  }, {
+    "user": "rpalitham",
+    "hours": 18
+  }, {
+    "user": "rsarkar",
+    "hours": 0
+  }, {
+    "user": "sekhar",
+    "hours": 0
+  }, {
+    "user": "siva",
+    "hours": 0
+  }, {
+    "user": "skandimalla",
+    "hours": 0
+  }, {
+    "user": "skuraku",
+    "hours": 0
+  }, {
+    "user": "sravuri",
+    "hours": 59
+  }, {
+    "user": "ssahithi",
+    "hours": 24
+  }, {
+    "user": "tborra",
+    "hours": 29
+  }, {
+    "user": "vyalagala",
+    "hours": 16
+  }]
+}

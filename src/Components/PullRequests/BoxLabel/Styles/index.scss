@@ -1,0 +1,38 @@
+$blue: rgba(0, 213, 189, 0.7);
+$base: #fff;
+
+.box {
+  grid-template-rows: 1fr 1fr;
+      display: grid;
+}
+
+.box-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  font-size: 1.1em;
+  font-family: Quicksand;
+  width: 100%;
+  background: #3a3e57;
+  color: #c7c7c7;
+  flex-grow: 1;
+  font-weight: 600;
+  height: 100%;
+  padding-left: 5%;
+}
+
+.box-num {
+  position: relative;
+  font-size: 40px;
+  color: #c7c7c7;
+  background: #2c3145;
+  padding-left: 0.5em;
+  font-family: Quicksand;
+  width:100%
+}
+
+
+.blue {
+color: $blue;
+}

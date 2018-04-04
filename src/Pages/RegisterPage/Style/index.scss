@@ -1,0 +1,102 @@
+.left-logo {
+  position: absolute;
+    width: 5em;
+}
+.techforce-tff {
+  color: #3fbaa7;
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-family: Quicksand;
+  grid-area: techforce-tf;
+}
+.registercard-container {
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 7px rgba(0,0,0,0.5);
+  background-color: #f9f9f9;
+  display: grid;
+  border-radius: 0.3em;
+  grid-template-rows: 70% 30%;
+  grid-template-columns: 10% 60% 30%;
+  grid-template-areas:
+  "vertical-line left-card right-card"
+  "vertical-line downleft-card downright-card";
+}
+.left-card {
+  display: grid;
+  grid-area: left-card;
+  margin-top: 8em;
+}
+.right-card {
+  display: grid;
+  grid-area: right-card;
+  grid-template-rows: 70% 30%;
+  grid-template-columns: 0.1fr 1fr 0.1fr;
+  grid-template-areas:
+  ". upload-logo ."
+  ". . .";
+}
+.downleft-card {
+  display: grid;
+  grid-area: downleft-card;
+}
+.downright-card {
+  display: grid;
+  grid-area: downright-card;
+}
+.register-label {
+  mix-blend-mode: undefined;
+  font-family: Quicksand;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #515151;
+}
+.upload-logo {
+  grid-area: upload-logo;
+  margin-top: 9em;
+}
+.mainregister-conatiner {
+  width: 100%;
+  height: 100%;
+}
+.location-pick {
+      bottom: 0.7em;
+      left: 2.6em;
+}
+.vertical-line {
+  grid-area: vertical-line;
+}
+.outerline {
+  margin-left: 5em;
+  width: 1px;
+    height: 44em;
+    overflow: hidden;
+    position: relative;
+}
+.innerline {
+  position: absolute;
+    width: 100%;
+    height: 83%;
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #05a9de, #3fbaa7, #f0f0f0);
+    top: 10%;
+    box-shadow: 0px 0px 30px 20px #05a9de;
+}
+.dividerreg {
+      margin-left: 3em;
+  margin-top: 6em;
+      border: 0;
+      height: 1.5px;
+      background-image: -webkit-linear-gradient(left, #f0f0f0, #05a9de, #3fbaa7, #f0f0f0);
+      background-image: -moz-linear-gradient(left, #f0f0f0, #05a9de, #3fbaa7, #f0f0f0);
+      background-image: -ms-linear-gradient(left, #f0f0f0, #05a9de, #3fbaa7, #f0f0f0);
+      background-image: -o-linear-gradient(left, #f0f0f0, #05a9de, #3fbaa7, #f0f0f0);
+      position: absolute;
+      width: 27em;
+}

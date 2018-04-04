@@ -1,0 +1,37 @@
+// .list-bots {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+.filtered-bot-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  // flex-wrap: wrap;
+}
+
+.filtered-bot-list-container > span {
+  font-size: 1.2em;
+  margin-left: 2em;
+  margin-top: 2em;
+}
+
+.filtered-bot-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.filtered-bots {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  // margin-top: 5em;
+  // overflow: hidden;
+}

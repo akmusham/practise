@@ -1,0 +1,7 @@
+/**
+ * All Register action constants
+ */
+export const UPDATE_FORM_VALUE = "UPDATE_FORM_VALUE"
+export const USER_REGISTRATION = "USER_REGISTRATION"
+export const USER_REGISTRAION_SUCCESS = "USER_SIGNIN_SUCCESS"
+export const SHOW_ERROR_DIALOG = "SHOW_ERROR_DIALOG"

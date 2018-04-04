@@ -1,0 +1,27 @@
+.widget-with-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100%;
+  width: 100%;
+}
+.jenkins {
+  background-color: #4799d6;
+  display: flex;
+flex-direction: column;
+align-items: center;
+padding: 4%;
+  .jenkins-logo {
+    img {
+      width: 100%;
+    }
+  }
+    .build {
+      width: 70%;
+      margin: 7% 0% 3% 0%;
+      img {
+        width: 100%;
+      }
+  }
+}

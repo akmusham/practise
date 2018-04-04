@@ -1,0 +1,73 @@
+.pacman-loader {
+  width: 85%;
+  height: 100%;
+  // border: 1px solid purple;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+.filtered-bots {
+  width: 85%;
+  height: 100%;
+  // border: 1px solid red;
+  .filtered-bot-list {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    .all-bots  {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-flow: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      .hired-bots, .available-bots {
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        .title {
+          font-size: 1.2em;
+          font-weight: bold;
+          font-family: 'Roboto', sans-serif;
+          margin: 1em;
+        }
+        .hired-bots-card, .available-bots-card {
+          width: 100%;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: flex-start;
+          align-items: flex-start;
+        }
+      }
+    }
+    .custom-filtered-bots {
+      width: 100%;
+      display: flex;
+      flex-flow: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      .title {
+        font-size: 1.2em;
+        font-weight: bold;
+        font-family: 'Roboto', sans-serif;
+        margin: 1em;
+      }
+      .custom-filtered-bots-card {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+    }
+  }
+}
+
+hr {
+  width: 100%;
+}
